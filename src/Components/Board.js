@@ -1,3 +1,7 @@
+import React from 'react'
+import Square from './Square'
+
+
 class Board extends React.Component {
     renderSquare(i) {
       return (
@@ -29,4 +33,6 @@ class Board extends React.Component {
         </div>
       );
     }
-  }
+}
+
+export default Board
